@@ -4,3 +4,5 @@
 local opt = vim.opt
 opt.relativenumber = false
 opt.guifont = "JetBrainsMono\\ NF:h8"
+opt.langmap =
+  "ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz"
