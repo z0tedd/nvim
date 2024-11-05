@@ -1,0 +1,34 @@
+-- return {
+--   "hrsh7th/nvim-cmp",
+--   dependencies = { "hrsh7th/cmp-emoji" },
+--   ---@param opts cmp.ConfigSchema
+--   opts = function(_, opts)
+--     table.insert(opts.sources, { name = "emoji" })
+--   end,
+-- }
+return {}
+-- return {
+--   "hrsh7th/nvim-cmp",
+--   ---@param opts cmp.ConfigSchema
+--   opts = function(_, opts)
+--     local cmp = require("cmp")
+--
+--     opts.mapping = vim.tbl_extend("force", opts.mapping, {
+--       ["<C-j>"] = cmp.mapping(function(fallback)
+--         if cmp.visible() then
+--           -- You could replace select_next_item() with confirm({ select = true }) to get VS Code autocompletion behavior
+--           cmp.select_next_item()
+--         else
+--           fallback()
+--         end
+--       end, { "i", "s" }),
+--       ["<C-k>"] = cmp.mapping(function(fallback)
+--         if cmp.visible() then
+--           cmp.select_prev_item()
+--         else
+--           fallback()
+--         end
+--       end, { "i", "s" }),
+--     })
+--   end,
+-- }
